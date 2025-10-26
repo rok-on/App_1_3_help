@@ -1,9 +1,8 @@
-
 import React, { useState, useEffect } from 'react';
-import { HINTS } from './constants';
-import HelpButton from './components/HelpButton';
-import MessageView from './components/MessageView';
-import { SpiderIcon, BatIcon } from './components/Icons';
+import { HINTS } from './constants.ts';
+import HelpButton from './components/HelpButton.tsx';
+import MessageView from './components/MessageView.tsx';
+import { SpiderIcon, BatIcon } from './components/Icons.tsx';
 
 // Configuration for button positions to prevent overlapping
 const buttonPositions = [
